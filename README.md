@@ -55,6 +55,5 @@ In this day and age, everyone deserves to keep their sensitive data safe from po
 <br>
 At DiamondSec, we are committed to providing our customers with the most secure and user-friendly password generation solutions on the market. As we look to the future, we are focused on the following objectives to continue to grow DiamondSec and promote password protection tothe world. On of the objectives we wish to pursue is to implement Artificial Intelligence and Machine Learning to create even more secure and sophisticated password generation algorithms. Moreover, we would like to implement our app for mobile devices, which are more accessible to the general population, to ensure that our customers can securely generate and manage their passwords on-the-go. Furthermore, we wish to seek out and establish partnerships and collaborations with other leading companies in the cybersecurity industry to continue to provide the best possible solutions to our customers.<br>
 
-<br>
 By pursuing these future endeavours, we are confident that we will continue to lead the way in password generation and help our users protect their online identities with the highest level of security."
 </br>
