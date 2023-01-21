@@ -38,8 +38,11 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 ### Evaluating Your Passwords:
 
 -Enter a password into the textbox with any desired password
+</br>
 -The password will be analyzed and return the password's strength
+</br>
 -Keep entering passwords until you reach your desired strenght
+</br>
 
 ## Design and Prototype
 Over the course of the last 24hrs, we built a design prototype of what the website will look like and how it would work. A video demonstration of it can be accessed on the [Devpost](https://devpost.com/software/sustainu-app). Moreover, we also built a website which is directly hosted from this repository using Github Pages and can be accessed [here](https://kritgrover.github.io/htv-sustainu/). Here are a few snapshots of the app.
