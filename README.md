@@ -20,7 +20,9 @@ Hackers have many tools in their toolbelts that can help crack your passwords an
 </br>
 
 ## The Approach
-After brainstorming and blackboarding our initial concept and project idea, we decided how to implement it by weighing our various design options; (1) website or app, (2) back-end, front-end, or full-stack, and (3) desired languages, frameworks, and libraries. We determined that a  a front-end website that can generates passwords through particular specs such as length and types accepted characters (ie. numbers, special characters, and letters)
+After brainstorming and blackboarding our initial concept and project idea, we decided how to implement it by weighing our various design options; (1) website or app, (2) back-end, front-end, or full-stack, and (3) desired languages, frameworks, and libraries. We determined that a front-end website written in HTML, CSS, and Javascript that can generate passwords through particular specs such as length and types of accepted characters (ie. numbers, special characters, and letters), as well as evaluating passwords given by the user, would a useful and simple tool for ensuring strong password use.
+
+Dividing tasks amongst teammates, we were able to separate the website into parts using the Github repository; such as UI/UX designs, documentation, and programming the core processes in Javascript. 
 
 </br>
 
