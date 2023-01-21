@@ -1,4 +1,4 @@
-# DiamondSec
+# DiamondSec <img src="Images/DiamondSec.jpg" width=28% alt="Home Page">
 A website that generates strong passwords, evaluates your existing ones, and teaches the user about the core concepts and strategies of password creation and online security.
 
 </br>
