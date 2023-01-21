@@ -51,9 +51,10 @@ Over the course of the last 24hrs, we built a design prototype of what the websi
 </br>
 
 ## Future Steps
-As the cost of gas continues to fluctuate individuals are turning to use public transit. But, shouldn't they be rewarded for choosing this service and leaving a lower individual carbon footprint? <br>
+In this day and age, everyone deserves to keep their sensitive data safe from potential hackers. Using our tool, everyone can make their passwords as unbreakable as diamonds.<br>
 <br>
-We at SustainU think they do and thus we wish to open our app to the public and promote environmental sustainability with users across the GTA. An ambitious idea such as this would require cooperation and partnerships with both the private and public sectors. For example, a proposed idea is to have points gained through frequent use of public transport. In order to keep track of when a user uses a public transit service we'd have to partner up with PRESTO in order to link the transactions with the points system of SustainU. Another proposed idea is to partner up with the Municipal Governments in allowing points to be gained through the use of CityBikes. Furthermore, environmentally sustainable small businesses that wish to increase their brand exposure can partner with SustainU and provide offers and discounts on their products. 
-Through SustainU individuals can finally be rewarded by being green. 
+At DiamondSec, we are committed to providing our customers with the most secure and user-friendly password generation solutions on the market. As we look to the future, we are focused on the following objectives to continue to grow DiamondSec and promote password protection tothe world. On of the objectives we wish to pursue is to implement Artificial Intelligence and Machine Learning to create even more secure and sophisticated password generation algorithms. Moreover, we would like to implement our app for mobile devices, which are more accessible to the general population, to ensure that our customers can securely generate and manage their passwords on-the-go. Furthermore, we wish to seek out and establish partnerships and collaborations with other leading companies in the cybersecurity industry to continue to provide the best possible solutions to our customers.<br>
 
+<br>
+By pursuing these future endeavours, we are confident that we will continue to lead the way in password generation and help our users protect their online identities with the highest level of security."
 </br>
