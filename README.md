@@ -31,13 +31,15 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 ### Generating a Secure Password:
 
 -Select a desired length of the password
+</br>
 -Select the characters that should be included within the password
+</br>
 -Keep generating passwords until you find one you like
-
+</br>
 
 ### Evaluating Your Passwords:
 
--Enter a password into the textbox with any desired password
+-Enter a password into the textbox labeled "Enter Password" with any desired password
 </br>
 -The password will be analyzed and return the password's strength
 </br>
