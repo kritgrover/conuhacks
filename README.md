@@ -22,7 +22,7 @@ Hackers have many tools in their toolbelts that can help crack your passwords an
 ## The Approach
 After brainstorming and blackboarding our initial concept and project idea, we decided how to implement it by weighing our various design options; (1) website or app, (2) back-end, front-end, or full-stack, and (3) desired languages, frameworks, and libraries. We determined that a front-end website written in HTML, CSS, and Javascript that can generate passwords through particular specs such as length and types of accepted characters (ie. numbers, special characters, and letters), as well as evaluating passwords given by the user, would a useful and simple tool for ensuring strong password use.
 
-Dividing tasks amongst teammates, we were able to separate the website into parts using the Github repository; such as UI/UX designs, documentation, and programming the core password generation and analyzation processes in Javascript. 
+Dividing tasks amongst teammates, we were able to separate the website into parts using the Github repository; such as UI/UX designs, documentation, and programming the core password generation and analyzation processes in Javascript. After the website's main features were implemented and tested, the website's UI/UX were refined in order to maximize user experience. 
 
 </br>
 
@@ -30,16 +30,16 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 
 ### Generating a Secure Password:
 
-
-
+-Select a desired length of the password
+-Select the characters that should be included within the password
+-Keep generating passwords until you find one you like
 
 
 ### Evaluating Your Passwords:
 
-
-
-
-</br>
+-Enter a password into the textbox with any desired password
+-The password will be analyzed and return the password's strength
+-Keep entering passwords until you reach your desired strenght
 
 ## Design and Prototype
 Over the course of the last 24hrs, we built a design prototype of what the website will look like and how it would work. A video demonstration of it can be accessed on the [Devpost](https://devpost.com/software/sustainu-app). Moreover, we also built a website which is directly hosted from this repository using Github Pages and can be accessed [here](https://kritgrover.github.io/htv-sustainu/). Here are a few snapshots of the app.
