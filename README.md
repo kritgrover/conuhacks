@@ -47,11 +47,7 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 </br>
 
 ## Design and Prototype
-Over the course of the last 24hrs, we built a website that generates strong passwords, evaluates user inputed password strengths, and educates the user about the basics of cyber security. A video demonstration of it can be accessed on the [Devpost]. The website is hosted on Github and can be accessed [here](https://kritgrover.github.io/conuhacks/). Here are a few snapshots of the website.
-
-<p align="center">
-<img src="images/s1.jpg" align="left" width=28% alt="Start Page"> <img src="images/Home.jpg" width=28% alt="Home Page"> <img src="images/leaderboard.jpg" align="right" width=28% alt="Leaderboard">
-</p>
+Over the course of the last 24hrs, we built a website that generates strong passwords, evaluates user inputed password strengths, and educates the user about the basics of cyber security. A video demonstration of it can be accessed on the [Devpost]. The website is hosted on Github and can be accessed [here](https://kritgrover.github.io/conuhacks/).
 
 </br>
 
