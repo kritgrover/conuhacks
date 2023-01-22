@@ -14,7 +14,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Nunito:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200&family=Nunito:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Raleway:wght@500&display=swap" rel="stylesheet">
 
 </head>
@@ -24,6 +24,7 @@
     <header>
         <div class="top-bar">
             <h1>DiamondSec</h1>
+            <img src="images/logo.png" alt="logo">
         </div>
     </header>
 
@@ -53,9 +54,9 @@
         <section id="prompt">
             <h2><strong>What Do You Want To Do Today?</strong></h2>
             <div class ="btns">
-                <button id="generate" onclick="location.href='#gen'">Generate New Password</button>
-                <button id="evaluate" onclick="location.href='#eval'">Evaluate Current Password</button>
-                <button id="best_prac" onclick="location.href='#bestp'">Go Over Best Practices</button>
+                <button id="generate" onclick="location.href='#gen'"><span>Generate New Password</span></button>
+                <button id="evaluate" onclick="location.href='#eval'"><span>Evaluate Current Password</span></button>
+                <button id="best_prac" onclick="location.href='#bestp'"><span>Go Over Best Practices</span></button>
             </div>
         </section>
 
@@ -96,8 +97,9 @@
             <h2>Evaluate Current Password</h2>
             <div class="prompt">
                 <label for="passwordInput">Enter your Password:</label>
-                <input type="password" id="passwordInput" placeholder="Enter Password" onkeyup="enableCheckPassword()">
-                <button id="checkPasswordButton">Check Password</button>
+                <input type="password" id="passwordInput" placeholder="Enter Password">
+                <button id="checkPasswordButton" onclick="checkPassword()">Check Password</button>
+                <div id="result"></div>
             </div>
         </section>
 
