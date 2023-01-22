@@ -58,7 +58,7 @@ function checkPassword() {
 
     var input = document.getElementById("passwordInput").value;
     var passwords = new XMLHttpRequest();
-    passwords.open("GET", "../rockyou.txt", false);
+    passwords.open("GET", "rockyou.txt", false);
     passwords.onreadystatechange = function () {
         if (passwords.readyState === 4) {
             if (passwords.status === 200 || passwords.status === 0) {
