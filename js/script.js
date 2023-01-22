@@ -4,7 +4,8 @@ function checkPasswordStrength() {
 
     if (password.length < 9) {
         document.getElementById("result").innerHTML = "Strength: VERY WEAK! Too Short.";
-        document.getElementById("more_res").innerHTML = "Using passwords that are less than 9 characters in length is a bad practice. Use longer passwords. Recommended length is 15+.";
+        document.getElementById("more_res").innerHTML = "Using passwords that are less than 9 characters in length is a bad practice. " + 
+            "Anyone running a Brute Force Attack can crack this password in under 30 minutes. Use longer passwords. Recommended length is 15+.";
         return;
     } else if (password.length >= 9 && password.length < 15) {
         strength += 4;
@@ -64,6 +65,7 @@ function checkPassword() {
 
     var input = document.getElementById("passwordInput").value;
     var passwords = new XMLHttpRequest();
+    const start = new Date().getTime();
     passwords.open("GET", "rockyou.txt", false);
     passwords.onreadystatechange = function () {
         if (passwords.readyState === 4) {
@@ -71,11 +73,14 @@ function checkPassword() {
                 var allPasswords = passwords.responseText.split("\n");
                 for (var i = 0; i < allPasswords.length; i++) {
                     if (allPasswords[i].trim() == input) {
+                        const end = new Date().getTime();
+                        const time = end - start;
                         document.getElementById("result").innerHTML = "Strength: VERY WEAK! Found in database.";
                         document.getElementById("more_res").innerHTML = "Password was found in" +
                             " our database that contains the most commonly used passwords. It is highly recommended you change" +
                             " your password as soon as possible. Follow the best practices and make sure your password is " +
-                            "atleast 15 characters long and does not have popular names and patterns.";
+                            "atleast 15 characters long and does not have popular names and patterns. Took " + time + " milliseconds" +
+                            " to find password.";
                         return;
                     }
                 }
