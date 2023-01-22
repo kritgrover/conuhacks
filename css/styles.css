@@ -23,6 +23,11 @@ img {
     width: 3%;
 }
 
+#im{
+    width: 40%;
+    margin: 2rem 2rem 4rem 5rem;
+}
+
 .top-bar{
     width: 100%;
     height: 100px;
@@ -38,12 +43,15 @@ main{
     margin-bottom: 5rem;
 }
 
-/*colors: 03001C, 301E67, 5B8FB9, B6EADA*/
 .description {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+.des {
     display: inline-block;
     width: 50%;
-    margin: 20px;
-
 }
 
 h2 {
@@ -147,6 +155,58 @@ h5 {
     transition: 0.5s;
 }
 
+.prompt label {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.prompt input {
+    width: 300px;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 0.5rem;
+}
+/* Generate password button */
+.prompt button {
+    padding: 20px 20px;
+    background-color: #2B4865;
+    color: white;
+    border: none;
+    opacity: 0.7;
+    border-radius: 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.prompt button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 1;
+}
+
+#eval h2 {
+    padding-top: 50px;
+}
+
+
+#result {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'Archivo', sans-serif;
+}
+
+#more_res, #extra-tests {
+    font-size: 1.3rem;
+    margin-bottom: 35px;
+    color: white;
+    width: 80%;
+    font-family: 'Archivo', sans-serif;
+}
+
 .options {
     width: 40%;
 }
@@ -198,6 +258,7 @@ label {
     border-radius: 1.5rem;
     font-size: 1rem;
     cursor: pointer;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
