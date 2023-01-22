@@ -1,6 +1,8 @@
 # DiamondSec<img style="padding: 0px 0px 0px 5px" src="images/logo.png" width=3% alt="logo">
 A website that generates strong passwords, evaluates your existing ones, and teaches the user about the core concepts and strategies of password creation and online security.
 
+Link to the website : https://kritgrover.github.io/conuhacks/
+
 </br>
 
 ## Table of Contents
