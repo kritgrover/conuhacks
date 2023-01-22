@@ -30,7 +30,7 @@
 
     <main>
         <section class="description">
-            <div>
+            <div class="des">
                 <h2><strong>What is DiamondSec?</strong></h2>
                 <p>We provide a service that generates secure passwords and evaluates user given passwords to make sure
                 the user is following the best practices.</p>
@@ -49,6 +49,7 @@
                 <h5>Helps us help you, choose DiamondSec today!</h5>
                 <a class="btn" onclick="location.href='#prompt'">Try it!</a>
             </div>
+            <img id="im" src="images/sec.png" alt="image">
         </section>
 
         <section id="prompt">
@@ -95,34 +96,48 @@
 
         <section id="eval">
             <h2>Evaluate Current Password</h2>
-            <div class="prompt">
-                <label for="passwordInput">Enter your Password:</label>
-                <input type="password" id="passwordInput" placeholder="Enter Password">
-                <button id="checkPasswordButton" onclick="checkPassword()">Check Password</button>
-                <div id="result"></div>
+            <div class="prompt" id="eval_div">
+                <div>
+                    <label for="passwordInput">Enter your Password:</label>
+                    <input type="password" id="passwordInput">
+                    <button id="check_pass" onclick="checkPassword()">Check Password</button>
+                    <div id="extra-tests"></div>
+                    <div id="result"></div>
+                    <div id="more_res"></div>
+                </div>
             </div>
         </section>
 
         <section id="bestp">
             <h2>Best Practices to Follow</h2>
+
             <div class="bp">
-                <h5>Use a strong, unique password for each of your accounts</h5>
-                <p>Using a different password for each account is important because if a hacker gets ahold of one password, they
-                    will not be able to access all of your accounts. A strong password is one that is difficult to guess and
+                <h5>Length, Length, Length</h5>
+                <p>No matter how complex or unique your password is, length always triumphs complexity. Make sure to use
+                long passwords for all of your accounts as it makes it extremely hard to brute force a password. In general,
+                it is a good practice to maintain atleast 15 characters for each password.</p>
+            </div>
+
+            <div class="bp">
+                <h5>Make your passwords strong and unique</h5>
+                <p>It's not just about length, complexity also plays a major role in good password security. A strong password is one that is difficult to guess and
                     contains a mix of letters, numbers, and special characters. Avoid using easily guessable information such as
-                    your name, birthdate, or common words.</p>
+                    your name, birthdate, or common words. Using a different password for each account is important because if a hacker gets ahold of one password, they
+                    will not be able to access all of your accounts. </p>
             </div>
 
 
             <div class="bp">
-                <h5>Use a password manager to store your passwords securely</h5>
+                <h5>Use a Password Manager</h5>
                 <p>A password manager can generate random, complex passwords and store them in an encrypted format. This means
-                    that even if a hacker gains access to the password manager, they will not be able to read your passwords.</p>
+                    that even if a hacker gains access to the password manager, they will not be able to read your passwords. It also
+                comes in handy as it is almost impossible to keep a mental note of all of your passwords, if they are all unique, which
+                they should be.</p>
             </div>
 
             <div class="bp">
-                <h5>Enable two-factor authentication when available</h5>
-                <p>Two-factor authentication adds an extra layer of security to your accounts by requiring a second form of
+                <h5>Multi Factor Authentication</h5>
+                <p>Multi-factor authentication adds extra layers of security to your accounts by requiring secondary forms of
                     verification, such as a fingerprint or a code sent to your phone, in addition to your password. Most
                     applications already have this feature, so use it!</p>
             </div>
@@ -134,7 +149,7 @@
 
     <footer class="bottom-container">
         <a href="https://github.com/kritgrover/conuhacks" target="_blank">GitHub</a>
-        <a href="https://devpost.com/software/conuhacks" target="_blank">Devpost</a>
+        <a href="https://devpost.com/software/diamondsec" target="_blank">Devpost</a>
         <br>
         <p class="copyright">©2022 DiamondSec@ConUHacks</p>
     </footer>
