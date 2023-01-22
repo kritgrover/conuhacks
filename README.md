@@ -49,7 +49,7 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 </br>
 
 ## Design and Prototype
-Over the course of the last 24hrs, we built a website that generates strong passwords, evaluates user inputed password strengths, and educates the user about the basics of cyber security. A video demonstration of it can be accessed on the [Devpost]. The website is hosted on Github and can be accessed [here](https://kritgrover.github.io/conuhacks/).
+Over the course of the last 24hrs, we built a website that generates strong passwords, evaluates user inputed password strengths, and educates the user about the basics of cyber security. A video demonstration of it can be accessed on the [Devpost](https://devpost.com/software/diamondsec). The website is hosted on Github and can be accessed [here](https://kritgrover.github.io/conuhacks/).
 
 </br>
 
