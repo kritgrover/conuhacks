@@ -4,7 +4,7 @@ function checkPasswordStrength() {
 
     if (password.length < 9) {
         document.getElementById("result").innerHTML = "Password Too Short!!!";
-        document.getElementById("more_res").innerHTML = "Password less than 9 characters is a bad practice. Use longer passwords. Recommended length is 15+.";
+        document.getElementById("more_res").innerHTML = "Using passwords that are less than 9 characters in length is a bad practice. Use longer passwords. Recommended length is 15+.";
         return;
     } else if (password.length >= 9 && password.length < 15) {
         strength += 4;
@@ -66,7 +66,7 @@ function checkPassword() {
                 for (var i = 0; i < allPasswords.length; i++) {
                     if (allPasswords[i].trim() == input) {
                         document.getElementById("result").innerHTML = "Password Too Common!!!";
-                        document.getElementById("more_res").innerHTML = "Password is too common and was found in" +
+                        document.getElementById("more_res").innerHTML = "Password was found in" +
                             " our database that contains the most commonly used passwords. It is highly recommended you change" +
                             " your password as soon as possible. Follow the best practices and make sure your password is " +
                             "atleast 15 characters long and does not have popular names and patterns.";
