@@ -15,7 +15,7 @@ A website that generates strong passwords, evaluates your existing ones, and tea
 </br>
 
 ## Goal
-Hackers have many tools in their toolbelts that can help crack your passwords and expose your valuable data; ie. credit card information and/or private conversations. So it is essential for individuals on the internet to choose a password that is strong and can protect against popular, malicious password attacks. However, a good password can't help you against phishing attacks, and that is why anyone from an experienced software engineer to a grandmother who only checks her email should have a good understanding of the best practices for password creation and how to keep that password out of the hands of a hacker.
+Hackers have many tools in their tool belts that can help crack your passwords and expose your valuable data; ie. credit card information and/or private conversations. So it is essential for individuals on the internet to choose a password that is strong and can protect against popular, malicious password attacks. However, a good password can't help you against phishing attacks, and that is why anyone from an experienced software engineer to a grandmother who only checks her email should have a good understanding of the best practices for password creation and how to keep that password out of the hands of a hacker.
 
 </br>
 
@@ -45,7 +45,7 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 </br>
 -The password will be analyzed and return the password's strength
 </br>
--Keep entering passwords until you reach your desired strenght
+-Keep entering passwords until you reach your desired strength
 </br>
 
 ## Design and Prototype
