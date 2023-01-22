@@ -58,7 +58,16 @@ h2 {
     font-size: 2.5rem;
     margin-bottom: 15px;
     color: #03001C;
+    transition: 0.3s;
+    opacity: 0.9;
     font-family: 'Roboto', sans-serif;
+}
+
+h2:hover {
+    font-size: 2.8rem;
+    font-style: italic;
+    opacity: 1;
+    text-decoration: underline;
 }
 
 p {
@@ -124,10 +133,13 @@ h5 {
     text-decoration: none;
     border-color: #301E67;
     text-align: center;
+    transition: 0.5s;
 }
 
 #prompt button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    width: 36%;
+    font-size: 1.3rem;
 }
 
 #prompt button:hover span {
