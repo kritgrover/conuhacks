@@ -49,7 +49,7 @@ function checkPasswordStrength() {
     } else if (strength == 10) {
         document.getElementById("result").innerHTML = "Strength: Good. Lacking Some Complexity.";
         document.getElementById("more_res").innerHTML = "The password entered uses the recommended amount of " +
-            "characters but does not make it complex enough. Even though length matters more, it is always a " +
+            "characters but is not complex enough. Even though length matters more, it is always a " +
             "good practice to make sure it contains different characters and formats.";
         return;
     } else {
