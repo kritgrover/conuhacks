@@ -52,7 +52,7 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 Over the course of the last 24hrs, we built a website that generates strong passwords, evaluates user inputed password strengths, and educates the user about the basics of cyber security. A video demonstration of it can be accessed on the [Devpost](https://devpost.com/software/diamondsec). The website is hosted on Github and can be accessed [here](https://kritgrover.github.io/conuhacks/). Here are some photos from the website.
 
 <p align="center">
-<img src="images/frontPage.jpg" align="left" width=28% alt="Start Page"> <img src="images/generatePassword.jpg" width=28% alt="Home Page">
+<img src="images/frontPage.png" align="left" width=28% alt="frontPage"> <img src="images/generatePassword.png" width=28% alt="generatePassword"><img src="images/infoPage.png" align="right" width=28% alt="infoPage">
 </p>
 
 </br>
