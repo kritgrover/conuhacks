@@ -9,7 +9,6 @@ A website that generates strong passwords, evaluates your existing ones, and tea
 - [Functionality](#functionality)
   - [Generating a Secure Password](#generating-a-secure-password)
   - [Evaluating Your Passwords](#evaluating-your-passwords)
-- [Design and Prototype](#design-and-prototype)
 - [Future Steps](#future-steps)
   
 </br>
