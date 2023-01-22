@@ -3,7 +3,7 @@ function checkPasswordStrength() {
     let strength = 0;
 
     if (password.length < 9) {
-        document.getElementById("result").innerHTML = "Password Too Short!!!";
+        document.getElementById("result").innerHTML = "Strength: VERY WEAK! Too Short.";
         document.getElementById("more_res").innerHTML = "Using passwords that are less than 9 characters in length is a bad practice. Use longer passwords. Recommended length is 15+.";
         return;
     } else if (password.length >= 9 && password.length < 15) {
@@ -34,19 +34,19 @@ function checkPasswordStrength() {
 
     // check password strength and display a message
     if (strength == 5 || strength ==6) {
-        document.getElementById("result").innerHTML = "Weak Password :(";
+        document.getElementById("result").innerHTML = "Strength: Weak. Use different formats.";
         document.getElementById("more_res").innerHTML = "Our system noticed your password uses a decent amount of" +
             " characters but is not complex enough. We highly recommend you to increase the length " +
             "of your password and use different combinations of uppercase and lowercase characters, as well as digits and other" +
             " special characters.";
     } else if (strength < 10 && strength > 6) {
-        document.getElementById("result").innerHTML = "Password Can Be Improved";
+        document.getElementById("result").innerHTML = "Strength: Moderate. Password Can Be Improved.";
         document.getElementById("more_res").innerHTML = "Our system noticed your password uses a decent amount of" +
             " characters and incorporates basic complexity of characters. We still recommend you to increase the length " +
             "of your password and probably make it not too obvious.";
         return;
     } else {
-        document.getElementById("result").innerHTML = "Strong Password :)";
+        document.getElementById("result").innerHTML = "Strength: Strong. Good Job!";
         document.getElementById("more_res").innerHTML = "The password entered uses the recommended amount of " +
             " characters and incorporates good enough complexity of characters. We appreciate your awareness in cybersecurity " +
             "and encourage you to follow all the best practices for a much safer experience.";
@@ -65,7 +65,7 @@ function checkPassword() {
                 var allPasswords = passwords.responseText.split("\n");
                 for (var i = 0; i < allPasswords.length; i++) {
                     if (allPasswords[i].trim() == input) {
-                        document.getElementById("result").innerHTML = "Password Too Common!!!";
+                        document.getElementById("result").innerHTML = "Strength: VERY WEAK! Found in database.";
                         document.getElementById("more_res").innerHTML = "Password was found in" +
                             " our database that contains the most commonly used passwords. It is highly recommended you change" +
                             " your password as soon as possible. Follow the best practices and make sure your password is " +
