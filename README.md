@@ -48,15 +48,6 @@ Dividing tasks amongst teammates, we were able to separate the website into part
 -Keep entering passwords until you reach your desired strength
 </br>
 
-## Design and Prototype
-Over the course of the last 24hrs, we built a website that generates strong passwords, evaluates user inputed password strengths, and educates the user about the basics of cyber security. A video demonstration of it can be accessed on the [Devpost](https://devpost.com/software/diamondsec). The website is hosted on Github and can be accessed [here](https://kritgrover.github.io/conuhacks/). Here are some photos from the website.
-
-<p align="center">
-<img src="images/frontPage.png" align="left" width=28% alt="frontPage"> <img src="images/generatePassword.png" width=28% alt="generatePassword"><img src="images/infoPage.png" align="right" width=28% alt="infoPage">
-</p>
-
-</br>
-
 ## Future Steps
 In this day and age, everyone deserves to keep their sensitive data safe from potential hackers. Using our tool, everyone can make their passwords as unbreakable as diamonds.<br>
 <br>
