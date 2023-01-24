@@ -167,19 +167,19 @@ h5 {
     transition: 0.5s;
 }
 
-.prompt label {
+#eval_div label {
     font-size: 1.2rem;
     color: white;
 }
 
-.prompt input {
+#eval_div input {
     width: 300px;
     padding: 15px;
     margin: 50px;
     border-radius: 0.5rem;
 }
 /* Generate password button */
-.prompt button {
+#eval_div button {
     padding: 20px 20px;
     background-color: #2B4865;
     color: white;
@@ -192,7 +192,7 @@ h5 {
     display: block;
 }
 
-.prompt button:hover {
+#eval_div button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     opacity: 1;
 }
@@ -243,16 +243,19 @@ form {
     display: flex;
     color: white;
 }
+
 /* Form labels */
 label {
     font-size: 18px;
     font-family: 'Archivo', sans-serif;
     margin-bottom: 10px;
 }
+
 /* Checkboxes and labels */
 #gen input[type="checkbox"] {
     margin: 10px;
 }
+
 /* Password length input */
 #gen input[type="number"] {
     width: 90px;
@@ -260,6 +263,7 @@ label {
     margin: 50px;
     border-radius: 1rem;
 }
+
 /* Generate password button */
 #gen button {
     padding: 20px 20px;
@@ -331,4 +335,161 @@ textarea::-webkit-scrollbar {
     color: #EAF6F6;
     font-size: 1rem;
     padding: 2rem 0;
+}
+
+@media (max-width: 440px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .top-bar {
+        padding-top: 1.4rem;
+        padding-left: 2rem;
+        height: 5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        padding-left: 30px;
+    }
+
+    #im {
+        display: none;
+    }
+
+    .des {
+        width: 85%;
+    }
+
+    p {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    h2:hover {
+        font-size: 1.7rem;
+    }
+
+    #prompt button {
+        width: 60%;
+        font-size: 0.9rem;
+        margin: 3rem auto;
+    }
+
+    #prompt button:hover {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    #gen {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .options {
+        width: 80%;
+    }
+
+    label {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    form {
+        display: block;
+    }
+
+    /* Checkboxes and labels */
+    #gen input[type="checkbox"] {
+        margin: 0.5rem;
+    }
+
+    label[for="length"]{
+        margin-top: 2rem;
+    }
+
+    /* Password length input */
+    #gen input[type="number"] {
+        width: 90px;
+        margin: 10px;
+        border-radius: 4rem;
+    }
+
+    #gen button {
+        padding: 1.1rem;
+        border-radius: 1.5rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .generated {
+        width: 80%;
+    }
+
+    textarea {
+        height: 150px;
+        font-size: 2.2rem;
+    }
+
+    .bottom-container a {
+        font-size: 1rem;
+    }
+
+    #gen_length {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
+
+    #eval_div {
+        padding: 20px;
+    }
+
+    #eval_div label {
+        font-size: 1rem;
+    }
+
+    #eval_div input {
+        width: 15rem;
+        padding: 15px;
+        margin: 30px;
+        border-radius: 0.5rem;
+    }
+
+    /* Generate password button */
+    #eval_div button {
+        padding: 1.1rem;
+        border-radius: 1.5rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #result {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    #more_res, #extra-tests {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+
+    #bestp {
+        margin: 1.5rem 0;
+    }
 }
